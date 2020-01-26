@@ -1,0 +1,17 @@
+{
+  "hosting": {
+	"appAssociation": "AUTO",
+	"rewrites": [
+		{
+			"source": "/auth/**",
+			"dynamicLinks": true
+		}
+	],
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

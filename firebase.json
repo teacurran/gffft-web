@@ -3,7 +3,7 @@
 	"appAssociation": "AUTO",
 	"rewrites": [
 		{
-			"source": "/auth/**",
+			"source": "/app/**",
 			"dynamicLinks": true
 		}
 	],
